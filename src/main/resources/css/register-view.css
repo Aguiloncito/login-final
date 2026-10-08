@@ -1,0 +1,64 @@
+/*
+ * Estilos - Register View
+ * Misma línea visual que Login para mantener consistencia
+ */
+
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom right, #667eea, #764ba2);
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 20, 0.2, 0, 6);
+}
+
+.title-text {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-fill: #333333;
+}
+
+.field-label {
+    -fx-font-size: 12px;
+    -fx-fill: #666666;
+}
+
+.input-field {
+    -fx-background-color: #f2f2f7;
+    -fx-background-radius: 8;
+    -fx-border-color: #dddde3;
+    -fx-border-radius: 8;
+    -fx-padding: 6 10 6 10;
+    -fx-font-size: 13px;
+    -fx-prompt-text-fill: #999999;
+}
+
+.input-field:focused {
+    -fx-border-color: #667eea;
+    -fx-background-color: white;
+}
+
+.btn-primary {
+    -fx-background-color: linear-gradient(to right, #667eea, #764ba2);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(to right, #5a6fd6, #6a4292);
+}
+
+.link-text {
+    -fx-text-fill: #667eea;
+    -fx-font-size: 11px;
+    -fx-underline: false;
+}
+
+.link-text:hover {
+    -fx-text-fill: #4c5fd6;
+    -fx-underline: true;
+}

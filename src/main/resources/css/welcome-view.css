@@ -1,0 +1,26 @@
+/*
+ * Estilos - Welcome View
+ */
+
+.welcomeRoot {
+    -fx-background-color: linear-gradient(to bottom right, #667eea, #764ba2);
+}
+
+.lblBienvenida {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.btnCerrarSesion {
+    -fx-background-color: white;
+    -fx-text-fill: #764ba2;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 20 8 20;
+    -fx-cursor: hand;
+}
+
+.btnCerrarSesion:hover {
+    -fx-background-color: #f2f2ff;
+}
